@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | Gujarat Southern Sports Club</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-gray-900 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-running text-2xl text-gray-900"></i>
+                    </div>
+                    <span class="text-xl font-bold">Gujarat Southern SC</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="hover:text-yellow-400">Home</a>
+                    <a href="#" class="hover:text-yellow-400">About</a>
+                    <a href="events.html" class="text-yellow-400 font-medium">Events</a>
+                    <a href="membership.html" class="hover:text-yellow-400">Membership</a>
+                    <a href="#" class="hover:text-yellow-400">Contact</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Events Calendar -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Upcoming Events</h2>
+            
+            <!-- Month Selector -->
+            <div class="flex justify-center mb-8">
+                <div class="bg-gray-100 rounded-full p-1 flex">
+                    <button class="px-4 py-2 rounded-full bg-yellow-500 text-gray-900 font-medium">May 2023</button>
+                    <button class="px-4 py-2 rounded-full hover:bg-gray-200">June 2023</button>
+                    <button class="px-4 py-2 rounded-full hover:bg-gray-200">July 2023</button>
+                </div>
+            </div>
+
+            <!-- Calendar Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-7 gap-4 mb-8">
+                <div class="text-center font-bold text-gray-500">Sun</div>
+                <div class="text-center font-bold text-gray-500">Mon</div>
+                <div class="text-center font-bold text-gray-500">Tue</div>
+                <div class="text-center font-bold text-gray-500">Wed</div>
+                <div class="text-center font-bold text-gray-500">Thu</div>
+                <div class="text-center font-bold text-gray-500">Fri</div>
+                <div class="text-center font-bold text-gray-500">Sat</div>
+
+                <!-- Calendar Days -->
+                <div class="h-24 border border-gray-200"></div>
+                <div class="h-24 border border-gray-200"></div>
+                <div class="h-24 border border-gray-200"></div>
+                <div class="h-24 border border-gray-200"></div>
+                <div class="h-24 border border-gray-200"></div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">1</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">2</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">3</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">4</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">5</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">6</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">7</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">8</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">9</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">10</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">11</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">12</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">13</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">14</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1 bg-yellow-50 relative">
+                    <div class="text-right text-sm">15</div>
+                    <div class="absolute inset-0 p-1 pt-6">
+                        <div class="bg-yellow-500 text-xs text-gray-900 font-bold p-1 rounded">Cricket Tournament</div>
+                    </div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">16</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">17</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">18</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">19</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">20</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">21</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1 bg-yellow-50 relative">
+                    <div class="text-right text-sm">22</div>
+                    <div class="absolute inset-0 p-1 pt-6">
+                        <div class="bg-yellow-500 text-xs text-gray-900 font-bold p-1 rounded">Football League</div>
+                    </div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">23</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">24</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">25</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">26</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">27</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">28</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">29</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">30</div>
+                </div>
+                <div class="h-24 border border-gray-200 p-1">
+                    <div class="text-right text-sm">31</div>
+                </div>
+                <div class="h-24 border border-gray-200"></div>
+                <div class="h-24 border border-gray-200"></div>
+                <div class="h-24 border border-gray-200"></div>
+                <div class="h-24 border border-gray-200"></div>
+            </div>
+
+            <!-- Featured Events -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Cricket Tournament -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/248547/pexels-photo-248547.jpeg" alt="Cricket Match" class="w-full h-48 object-cover">
+                        <div class="absolute top-4 right-4 bg-yellow-500 text-gray-900 font-bold px-3 py-1 rounded-full">
+                            May 15
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Annual Cricket Tournament</h3>
+                        <p class="text-gray-600 mb-4">Join us for our flagship cricket event with exciting prizes. Teams from across Gujarat will compete in this 3-day tournament.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">9:00 AM</span>
+                            <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">Main Ground</span>
+                            <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">All Ages</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500"><i class="fas fa-users mr-1"></i> 32 teams registered</span>
+                            <button class="bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-lg text-sm" data-event-register data-event-name="Annual Cricket Tournament">
+                                Register Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Football League -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg" alt="Football Match" class="w-full h-48 object-cover">
+                        <div class="absolute top-4 right-4 bg-yellow-500 text-gray-900 font-bold px-3 py-1 rounded-full">
+                            May 22
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Inter-Club Football League</h3>
+                        <p class="text-gray-600 mb-4">Competitive matches between regional clubs. The winning team will represent Gujarat in the national championship.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">4:00 PM</span>
+                            <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">Football Field</span>
+                            <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">16+</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500"><i class="fas fa-users mr-1"></i> 12 teams registered</span>
+                            <button class="bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-lg text-sm" data-event-register data-event-name="Inter-Club Football League">
+                                Register Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Events -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Past Events</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Swimming Competition -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg" alt="Swimming Competition" class="w-full h-48 object-cover">
+                        <div class="absolute top-4 right-4 bg-gray-500 text-white font-bold px-3 py-1 rounded-full">
+                            April 10
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Swimming Championship</h3>
+                        <p class="text-gray-600 mb-4">Our annual swimming competition saw record participation this year.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500"><i class="fas fa-trophy mr-1"></i> Completed</span>
+                            <button class="text-gray-900 hover:text-yellow-500 font-medium text-sm">
+                                View Photos <i class="fas fa-arrow-right ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Badminton Tournament -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/1432039/pexels-photo-1432039.jpeg" alt="Badminton Tournament" class="w-full h-48 object-cover">
+                        <div class="absolute top-4 right-4 bg-gray-500 text-white font-bold px-3 py-1 rounded-full">
+                            March 18
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Badminton Tournament</h3>
+                        <p class="text-gray-600 mb-4">Singles and doubles matches with players from across the state.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500"><i class="fas fa-trophy mr-1"></i> Completed</span>
+                            <button class="text-gray-900 hover:text-yellow-500 font-medium text-sm">
+                                View Photos <i class="fas fa-arrow-right ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Yoga Workshop -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg" alt="Yoga Workshop" class="w-full h-48 object-cover">
+                        <div class="absolute top-4 right-4 bg-gray-500 text-white font-bold px-3 py-1 rounded-full">
+                            February 5
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Yoga Workshop</h3>
+                        <p class="text-gray-600 mb-4">Special session with renowned yoga instructor Ramesh Patel.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500"><i class="fas fa-trophy mr-1"></i> Completed</span>
+                            <button class="text-gray-900 hover:text-yellow-500 font-medium text-sm">
+                                View Photos <i class="fas fa-arrow-right ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Gujarat Southern SC</h3>
+                    <p class="text-gray-400">Promoting sports excellence and community health since 2005.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-yellow-400">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-400">About Us</a></li>
+                        <li><a href="events.html" class="text-gray-400 hover:text-yellow-400">Events</a></li>
+                        <li><a href="membership.html" class="text-gray-400 hover:text-yellow-400">Membership</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-yellow-400"></i> <span class="text-gray-400">123 Sports Ave, Surat, Gujarat</span></li>
+                        <li class="flex items-center"><i class="fas fa-phone-alt mr-2 text-yellow-400"></i> <span class="text-gray-400">+91 9876543210</span></li>
+                        <li class="flex items-center"><i class="fas fa-envelope mr-2 text-yellow-400"></i> <span class="text-gray-400">info@gujaratsouthernsc.com</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Gujarat Southern Sports Club. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
