@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership | Gujarat Southern Sports Club</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-gray-900 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-running text-2xl text-gray-900"></i>
+                    </div>
+                    <span class="text-xl font-bold">Gujarat Southern SC</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="hover:text-yellow-400">Home</a>
+                    <a href="#" class="hover:text-yellow-400">About</a>
+                    <a href="#" class="hover:text-yellow-400">Events</a>
+                    <a href="membership.html" class="text-yellow-400 font-medium">Membership</a>
+                    <a href="#" class="hover:text-yellow-400">Contact</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Membership Plans -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Membership Plans</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Basic Plan -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg border-2 border-gray-200 hover:border-yellow-500 transition duration-300">
+                    <div class="bg-gray-900 text-white p-6">
+                        <h3 class="text-xl font-bold">Basic</h3>
+                        <p class="text-gray-300">For individual members</p>
+                        <div class="mt-4">
+                            <span class="text-3xl font-bold">₹500</span>
+                            <span class="text-gray-300">/month</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-yellow-500 mr-2"></i>
+                                <span>Access to gym facilities</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-yellow-500 mr-2"></i>
+                                <span>Swimming pool access (weekdays)</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-yellow-500 mr-2"></i>
+                                <span>10% discount on events</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg border-2 border-yellow-500 transform hover:scale-105 transition duration-300">
+                    <div class="bg-yellow-500 text-gray-900 p-6">
+                        <h3 class="text-xl font-bold">Premium</h3>
+                        <p>For serious athletes</p>
+                        <div class="mt-4">
+                            <span class="text-3xl font-bold">₹1000</span>
+                            <span>/month</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-yellow-500 mr-2"></i>
+                                <span>All Basic benefits</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-yellow-500 mr-2"></i>
+                                <span>Unlimited pool access</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-yellow-500 mr-2"></i>
+                                <span>Personal locker</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-yellow-500 mr-2"></i>
+                                <span>25% discount on events</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Family Plan -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg border-2 border-gray-200 hover:border-yellow-500 transition duration-300">
+                    <div class="bg-gray-900 text-white p-6">
+                        <h3 class="text-xl font-bold">Family</h3>
+                        <p class="text-gray-300">For families (up to 4)</p>
+                        <div class="mt-4">
+                            <span class="text-3xl font-bold">₹1500</span>
+                            <span class="text-gray-300">/month</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-yellow-500 mr-2"></i>
+                                <span>All Premium benefits</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-yellow-500 mr-2"></i>
+                                <span>Coverage for spouse & 2 children</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-yellow-500 mr-2"></i>
+                                <span>Family events priority</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6 max-w-3xl">
+            <h2 class="text-3xl font-bold text-center mb-12">Join Our Club</h2>
+            <form id="membershipForm" class="bg-white p-8 rounded-lg shadow-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Full Name*</label>
+                        <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Email*</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500" required>
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number*</label>
+                        <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500" required>
+                    </div>
+                    <div>
+                        <label for="plan" class="block text-gray-700 font-medium mb-2">Membership Plan*</label>
+                        <select id="plan" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500" required>
+                            <option value="">Select a plan</option>
+                            <option value="basic">Basic (₹500/month)</option>
+                            <option value="premium">Premium (₹1000/month)</option>
+                            <option value="family">Family (₹1500/month)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mt-6">
+                    <label for="message" class="block text-gray-700 font-medium mb-2">Additional Notes</label>
+                    <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+                </div>
+                <div class="mt-8">
+                    <button type="submit" class="w-full bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Submit Application
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Gujarat Southern SC</h3>
+                    <p class="text-gray-400">Promoting sports excellence and community health since 2005.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-yellow-400">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-400">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-400">Events</a></li>
+                        <li><a href="membership.html" class="text-gray-400 hover:text-yellow-400">Membership</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-yellow-400"></i> <span class="text-gray-400">123 Sports Ave, Surat, Gujarat</span></li>
+                        <li class="flex items-center"><i class="fas fa-phone-alt mr-2 text-yellow-400"></i> <span class="text-gray-400">+91 9876543210</span></li>
+                        <li class="flex items-center"><i class="fas fa-envelope mr-2 text-yellow-400"></i> <span class="text-gray-400">info@gujaratsouthernsc.com</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Gujarat Southern Sports Club. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
