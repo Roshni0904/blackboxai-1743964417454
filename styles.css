@@ -1,0 +1,13 @@
+/* Custom styles for Gujarat Southern Sports Club */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-bg {
+    background-image: url('https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Additional styles can be added here */
