@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gujarat Southern Sports Club</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-bg {
+            background-image: url('https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-gray-900 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-running text-2xl text-gray-900"></i>
+                    </div>
+                    <span class="text-xl font-bold">Gujarat Southern SC</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-yellow-400 font-medium">Home</a>
+                    <a href="about.html" class="hover:text-yellow-400">About</a>
+                    <a href="events.html" class="hover:text-yellow-400">Events</a>
+                    <a href="membership.html" class="hover:text-yellow-400">Membership</a>
+                    <a href="members.html" class="hover:text-yellow-400">Members</a>
+                    <a href="coaches.html" class="hover:text-yellow-400">Coaches</a>
+                    <a href="achievements.html" class="hover:text-yellow-400">Achievements</a>
+                    <a href="contact.html" class="hover:text-yellow-400">Contact</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg h-screen flex items-center justify-center text-white relative">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="container mx-auto px-6 z-10 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4">Gujarat Southern Sports Club</h1>
+            <p class="text-xl md:text-2xl mb-8">Promoting Sports Excellence Since 2005</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <button class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-6 rounded-lg transition duration-300">
+                    Join Now
+                </button>
+                <button class="bg-transparent hover:bg-gray-800 text-white font-bold py-3 px-6 border-2 border-white rounded-lg transition duration-300">
+                    Learn More
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Events Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Upcoming Events</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Event Card 1 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/248547/pexels-photo-248547.jpeg" alt="Cricket Match" class="w-full h-48 object-cover">
+                        <div class="absolute top-4 right-4 bg-yellow-500 text-gray-900 font-bold px-3 py-1 rounded-full">
+                            May 15
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Annual Cricket Tournament</h3>
+                        <p class="text-gray-600 mb-4">Join us for our flagship cricket event with exciting prizes.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500"><i class="fas fa-map-marker-alt mr-1"></i> Main Ground</span>
+                            <button class="bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-lg text-sm">
+                                Register
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Card 2 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg" alt="Football Match" class="w-full h-48 object-cover">
+                        <div class="absolute top-4 right-4 bg-yellow-500 text-gray-900 font-bold px-3 py-1 rounded-full">
+                            May 22
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Inter-Club Football League</h3>
+                        <p class="text-gray-600 mb-4">Competitive matches between regional clubs.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500"><i class="fas fa-map-marker-alt mr-1"></i> Football Field</span>
+                            <button class="bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-lg text-sm">
+                                Register
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Card 3 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg" alt="Swimming Competition" class="w-full h-48 object-cover">
+                        <div class="absolute top-4 right-4 bg-yellow-500 text-gray-900 font-bold px-3 py-1 rounded-full">
+                            June 5
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Swimming Championship</h3>
+                        <p class="text-gray-600 mb-4">Test your skills in our annual swimming competition.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500"><i class="fas fa-map-marker-alt mr-1"></i> Olympic Pool</span>
+                            <button class="bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-lg text-sm">
+                                Register
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Club Highlights Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Facilities</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-dumbbell text-3xl text-gray-900"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Modern Gym</h3>
+                    <p class="text-gray-600">State-of-the-art equipment with personal trainers available.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-futbol text-3xl text-gray-900"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Sports Fields</h3>
+                    <p class="text-gray-600">Multiple well-maintained fields for cricket, football, and more.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-swimming-pool text-3xl text-gray-900"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Olympic Pool</h3>
+                    <p class="text-gray-600">50m competition pool with professional coaching staff.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Gujarat Southern SC</h3>
+                    <p class="text-gray-400">Promoting sports excellence and community health since 2005.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-400">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-400">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-400">Events</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-400">Membership</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-yellow-400"></i> <span class="text-gray-400">123 Sports Ave, Surat, Gujarat</span></li>
+                        <li class="flex items-center"><i class="fas fa-phone-alt mr-2 text-yellow-400"></i> <span class="text-gray-400">+91 9876543210</span></li>
+                        <li class="flex items-center"><i class="fas fa-envelope mr-2 text-yellow-400"></i> <span class="text-gray-400">info@gujaratsouthernsc.com</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-gray-900">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Gujarat Southern Sports Club. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
